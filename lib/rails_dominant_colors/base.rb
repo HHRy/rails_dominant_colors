@@ -64,11 +64,14 @@ module RailsDominantColors
     def extensions
       @extensions ||= {
         'image/png': '.png',
-        'image/jpeg': '.jpg',
+        'image/jpeg': '.jpeg',
         'image/jpg': '.jpg',
         'image/gif': '.gif',
         'image/bmp': '.bmp',
-        'image/tiff': '.tif'
+        'image/webp': '.webp',
+        'image/tiff': '.tif',
+        'image/svg+xml': '.svg',
+        'image/svg': '.svg'
       }
     end
 
